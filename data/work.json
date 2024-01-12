@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Prodapt",
+        "title": "Corporate Site Redesign",
+        "subtitle": "A fresh new look for Prodapt.com",
+        "thumbnail": "prodapt-homepage",
+        "file": "prodapt-site",
+        "url": "prodapt-site"
+    },
+    {
+        "name": "Kinetic by Windstream",
+        "title": "Residential Site & Checkout",
+        "subtitle": "Residential content site with shopping experience",
+        "thumbnail": "kinetic-residential",
+        "file": "ws-res",
+        "url": "kinetic-windstream"
+    },
+    {
+        "name": "Kinetic Business by Windstream",
+        "title": "Business Site & Checkout",
+        "subtitle": "Business content site with shopping experience",
+        "thumbnail": "kinetic-business",
+        "file": "ws-smb",
+        "url": "kinetic-business-windstream"
+    },
+    {
+        "name": "Kore",
+        "title": "Desktop App Prototype",
+        "subtitle": "An interactive prototype of the Kore desktop app",
+        "thumbnail": "kore-app",
+        "file": "kore-prototype",
+        "url": "kore-prototype"
+    },
+    {
+        "name": "Stackpath",
+        "title": "Striketracker Web Application",
+        "subtitle": "A robust web application for configuring CDN capabilties",
+        "thumbnail": "stackpath-striketracker",
+        "file": "sp-striketracker",
+        "url": "stackpath"
+    },
+    {
+        "name": "Concept",
+        "title": "Dashboard Visual Upgrade",
+        "subtitle": "Concept dashboard project for an undisclosed client",
+        "thumbnail": "prodapt-dashboard",
+        "file": "concept-dash",
+        "url": "concept-dashboard"
+    }
+    
+]

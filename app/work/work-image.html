@@ -1,0 +1,30 @@
+<div waypoint data-ng-if="type == 'desktop' && image" class="desktop-image slide">
+    <div class="desktop-bar">
+        <div class="circles">
+            <div class="circle red"></div>
+            <div class="circle yellow"></div>
+            <div class="circle green"></div>
+        </div>
+    </div>
+    <div class="work-image desktop" ng-style="{'background-image': 'url(content/images/work/' + image + ')', 'padding-top': padding}"></div>
+</div>
+
+<div waypoint data-ng-if="type == 'video' && image" class="desktop-image slide">
+    <div class="desktop-bar">
+        <div class="circles">
+            <div class="circle red"></div>
+            <div class="circle yellow"></div>
+            <div class="circle green"></div>
+        </div>
+    </div>
+    <div class="video-container">
+        <video autoplay loop muted ng-attr-poster="content/images/work/{{image.poster}}" class="work-video">
+            <source ng-src="content/images/work/{{image.video}}.webm" type="video/webm" />
+        </video>
+    </div>
+</div>
+
+<div waypoint delay="{{$index * 200}}" data-ng-if="type == 'mobile' && image" ng-repeat="img in image track by $index" class="mobile-image slide">
+    <div class="phone-line"></div>
+    <div class="work-image mobile" ng-style="{'background-image': 'url(content/images/work/' + img + ')'}"></div>
+</div>

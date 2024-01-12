@@ -1,0 +1,47 @@
+<header id="main-header" class="{{vm.menuState}} {{vm.scrolled}}">
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img class="d-inline-block align-text-top" src="content/images/Logo.svg" alt="James Elder Portfolio" width="28" height="28">
+            </a>
+            <div data-change-menu class="menu-icon">
+                <span class="top">&nbsp</span>
+                <span class="middle">&nbsp</span>
+                <span class="bottom">&nbsp</span>
+            </div>
+            <div class="navbar-collapse" ng-class="{'show-contact': vm.socialMenu}">
+                <div class="navbar-nav menu">
+                    <a class="nav-link" href="#/process">Process</a>
+                    <a class="nav-link" href="#/leadership">Leadership</a>
+                    <a class="nav-link" href="#/work">Work</a>
+                    <a class="nav-link" href="#/about">About</a>
+                    <a class="nav-link contact" href="" ng-click="vm.showSocial('on')">Contact</a>
+                </div>
+                <div class="navbar-nav contact">
+                    <a class="nav-link" href="mailto:jelder23@gmail.com" target="_blank">Email</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/jameselderdev" target="_blank"> LinkedIn</a>
+                    <a class="nav-link" href="https://twitter.com/LostLeftTweet" target="_blank">Twitter</a>
+                    <a class="nav-link" href="" ng-click="vm.showSocial('off')"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i> Back</a>
+                </div>
+            </div>
+            <div class="navbar-collapse">
+                
+            </div>
+            <div class="contact-container">
+                <h2>Let's chat!</h2>
+                <p>Let's build the next great thing together! Reach out through email, LinkedIn, or follow me on Twitter.</p>
+                <div class="social-buttons">
+                    <a class="social-button email" href="mailto:jelder23@gmail.com" target="_blank">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/in/jameselderdev" target="_blank">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a class="social-button twitter" href="https://twitter.com/LostLeftTweet" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

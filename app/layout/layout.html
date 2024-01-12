@@ -1,0 +1,12 @@
+<div data-ng-controller="Layout as vm" id="app-layout" class="{{vm.noScroll}} {{vm.respondSize.viewWidth}} {{vm.respondSize.viewHeight}}">
+
+    <!-- Header -->
+    <div data-ng-include="'app/layout/header.html'"></div>
+
+    <!-- main app view / Routing -->
+    <div data-ng-view id="view-content" class="ng-animate-disabled"></div>
+
+    <!-- Footer -->
+    <div data-ng-include="'app/layout/footer.html'"></div>
+
+</div>

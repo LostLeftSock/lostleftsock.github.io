@@ -1,0 +1,41 @@
+{
+    "overview": {
+        "image": "kp-hero.jpg",
+        "padding": "76%",
+        "description": [
+            "Kore had both a SaaS based messenger platform and a PaaS based bot platform. We provided oversight and direct development on core components of both, including the real time messenger, bot store, bot builder tool, enterprise administration tool, post flows, and more.",
+            "Additionally, we established a consistent set of best practices and guidelines, wrote related documentation, and trained staff in best practices and technologies including Jira, Sass, Git, JavaScript, and AngularJS.",
+            "I also traveled to Hyderabad, India and directly collaborated with Kore's offshore team to improve development deliverables."
+        ],
+        "deliverables": "Interation Design, Front-End Development"
+    },
+    "sections": [
+        {
+            "type": "video",
+            "alignment": "right",
+            "image": {
+                "poster": "kp-login.jpg",
+                "video":"kp-login"
+            },
+            "title": "Email or Phone",
+            "description": "We streamlined the login process by allowing users to log in either by phone or email. We even auto-detected if they had an account and if not directed them to sign up."
+        },
+        {
+            "type": "video",
+            "alignment": "left",
+            "image": {
+                "poster": "kp-modal.jpg",
+                "video":"kp-modal"
+            },
+            "title": "Animations done right",
+            "description": "Interaction design was critical in creating an enjoyable experience and all elements were created to allow for smooth animations between screens and within their components."
+        },
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "kp-code.jpg",
+            "title": "Better development handoff",
+            "description": "The prototype was key in relaying the desired experience and served as a tool to increase development’s understanding of best practices. "
+        }
+    ]
+}

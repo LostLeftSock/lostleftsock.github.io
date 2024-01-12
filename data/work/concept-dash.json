@@ -1,0 +1,31 @@
+{
+    "overview": {
+        "image": "dash-hero.jpg",
+        "padding": "114%",
+        "description": [
+            "The client had an existing automation dashboard that was used to create, monitor, deploy, and analyze bot traffic for a number of services. The initial task was for us to take the existing UI and a layer of polish to it so that it could be shared with executives.",
+            "While we were able to change the overall design, we weren’t able to update any of the existing structure, layout, or controls. This presented a considerable challenge in creating a more harmonious experience. We decided to go with something that was a little more modern and brought color and icons into the navigation.", 
+            "The new look was a hit with the existing users and upper management." 
+
+        ],
+        "deliverables": "Visual Design, Interface Design"
+    },
+    "sections": [
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "dash-light.jpg",
+            "padding": "74%",
+            "title": "Light & Dark",
+            "description": "We incorporated both a light and dark mode so that it could be seen and used by individuals or presented to management."
+        },
+        {
+            "type": "desktop",
+            "alignment": "left",
+            "image": "dash-graph.jpg",
+            "padding": "74%",
+            "title": "Better for presentations",
+            "description": "A special executive mode, with a more streamlined interface, was also incorporated for those who only were going to evaluate or present the analytics."
+        }
+    ]
+}

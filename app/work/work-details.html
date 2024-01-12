@@ -1,0 +1,72 @@
+<section class="page-heading sec-top sec-color">
+    <div ng-if="vm.work" waypoint class="container-xxl">
+        <div class="row">
+            <div class="col">
+                <div class="page-heading-words">
+                    <h1>{{vm.work.title}}</h1>
+                    <p>{{vm.work.subtitle}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<img image-load="vm.imageLoad()" ng-show="false" ng-src="content/images/work/{{vm.overview.image}}">
+<section class="work-overview sec-sm">
+    <div class="container-xxl">
+        <div ng-if="!vm.pageReady" class="row justify-content-center">
+            <div class="col-md-3 loading-container text-center">
+                <div class="loading-swirl {{vm.loadDone}}">
+                    <img class="red" src="content/images/hc_red.svg">
+                    <img class="green" src="content/images/hc_green.svg">
+                    <img class="blue" src="content/images/hc_blue.svg">
+                </div>
+            </div>
+        </div>
+        <div ng-if="vm.overview && vm.pageReady" class="row">
+            <div class="col-lg-7">
+                <div work-image image="vm.overview.image" type="'desktop'" padding="vm.overview.padding"></div>
+            </div>
+            <div waypoint class="col-lg-5">
+                <div waypoint class="overview-container">
+                    <div class="overview-words">
+                        <h2>Overview</h2>
+                        <p ng-repeat="p in vm.overview.description">{{p}}</p>
+                    </div>
+                    <div class="deliverable-words">
+                        <h3>Team Deliverables</h3>
+                        <p>{{vm.overview.deliverables}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section data-ng-if="vm.sections && vm.pageReady" class="sec-sm" ng-repeat="section in vm.sections">
+    <div class="container-xxl">
+        <div class="row">
+            <div ng-class="{right: 'order-lg-2'}[section.alignment]" class="col-lg-8 order-1">
+                <div work-image image="section.image" type="section.type" padding="section.padding"></div>
+            </div>
+            <div ng-class="{right: 'order-lg-1'}[section.alignment]" class="col-lg-4 order-2 align-self-center">
+                <div waypoint class="work-words">
+                    <h3>{{section.title}}</h3>
+                    <p>{{section.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section data-ng-if="vm.pageReady" class="work-navigation sec-sm">
+    <div class="container-xxl">
+        <div class="row justify-content-center">
+            <div class="col">
+                <div class="work-nav-buttons">
+                    <a href="#/work/{{vm.urlLinks.prev}}" class="btn btn-outline-primary prev">Prev Project</a>
+                    <a href="#/work" class="btn btn-outline-primary back d-none d-sm-block">Recent Work</a>
+                    <a href="#/work/{{vm.urlLinks.next}}" class="btn btn-outline-primary next">Next Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div data-ng-if="vm.pageReady" class="horz-divider"></div>

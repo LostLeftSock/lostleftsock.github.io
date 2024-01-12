@@ -1,0 +1,41 @@
+{
+    "overview": {
+        "image": "prod-hero.jpg",
+        "padding": "145%",
+        "description": [
+            "Prodapt, a global consulting company, had recently changed their brand and company mission and wanted to have a full transformation of their current site, prodapt.com, to better reflect the new look and direction.", 
+            "The design team and I started by meeting with the Prodapt marketing team and mapping out a plan for what we would do. This started with user research and competitive analysis to better understand the market. We created a site flow to help understand how users would browse the site and what we would need for the information architecture.",
+            "Once we had the basics in place, we made wireframes of all the pages and began crafting the general experience. Meanwhile, another vendor was in the middle of creating the broad strokes for the branding, which we would later incorporate. Since we had to work in parallel while the branding was also taking shape, this made the overall design much more challenging. Lastly, with branding approved, we finalized the full mockups and worked alongside development to create the .com website.",
+            "The new site is a much more modern and contemporary design, allowing users to browse the full suite of services Prodapt offers. The launch was a great success and Prodapt was thrilled with the response to the new site both internally and from external clients and partners, both established and new."
+
+        ],
+        "deliverables": "Product Strategy, User Research, IA, Visual Design, Interface Design, Interaction Design"
+    },
+    "sections": [
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "prod-flow.jpg",
+            "title": "A better overall experience",
+            "description": "Consideration was given to all aspects of the customer journey and the different ways users may interact and browse the site."
+        },
+        {
+            "type": "desktop",
+            "alignment": "left",
+            "image": "prod-navigation.jpg",
+            "title": "Simplified navigation",
+            "description": "The navigation was simplified and the language adjusted to be more clear and succinct, while still retaining the common terms familiar to the various business segments served."
+        },
+        {
+            "type": "mobile",
+            "alignment": "right",
+            "image": [
+                "prod-mobile-home.jpg",
+                "prod-mobile-nav.jpg",
+                "prod-mobile-business.jpg"
+            ],
+            "title": "All device friendly",
+            "description": "While most users browse from desktop resolutions, the site is fully responsive and looks great on mobile devices all the way up to desktop browsers."
+        }
+    ]
+}

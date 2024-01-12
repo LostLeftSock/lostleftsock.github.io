@@ -1,0 +1,37 @@
+{
+    "overview": {
+        "image": "strike-hero.jpg",
+        "padding": "72%",
+        "description": [
+            "Striketracker was a CDN (content delivery network) web application, which was part of a suite of tools offered by Stackpath. It was used primarily to configure the way content was delivered to the user’s customers.",
+            "The team and I spent considerable time working through how to take the interface, which was fairly complex, and make it much more simple and easy to use. We also had to think through how to make it easy enough for new, novice users to take advantage of the feature sets. This resulted in a number of significant changes to the entire application, including navigation, structure, analytics and more."
+
+        ],
+        "deliverables": "User Research, IA, Visual Design, Interface Design, Interaction Design"
+    },
+    "sections": [
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "strike-wizard.jpg",
+            "title": "Create site wizard",
+            "description": "Changing the initial setup to a wizard made the process easier to digest and simpler for all users."
+        },
+        {
+            "type": "desktop",
+            "alignment": "left",
+            "image": "strike-simple.jpg",
+            "padding": "67%",
+            "title": "Easier configuration",
+            "description": "The basics were streamlined down to the essentials so that configuration was more understandable and easier to do. "
+        },
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "strike-advanced.jpg",
+            "padding": "67%",
+            "title": "Advanced mode",
+            "description": "While advanced mode separated the more complex tasks, we made sure the UI was intuitive even for power users. Simple publishing controls brought it all together. "
+        }
+    ]
+}

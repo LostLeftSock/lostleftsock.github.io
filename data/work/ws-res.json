@@ -1,0 +1,68 @@
+{
+    "overview": {
+        "image": "wsr-hero.jpg",
+        "padding": "145%",
+        "description": [
+            "Kinetic by Windstream was a multi-year engagement, working on both the residential and small business sites, across many different projects including content pages, cart & checkout, and more.",
+            "Initially taking ownership of the delivery from a previous vendor, we quickly worked to establish quality deliverables across the entire design and development stack. We implemented new processes to streamline communication and gained their trust by being transparent in the design process.", 
+            "We created many designs for a multitude of different campaigns as well as continued to update the site with new branding initiatives each year. This included designing for the basic pages, such as About or Support, as well as new promotions, products, and service pages. We often gave recommendations on ways to make improvements across the full user experience as well as tools needed to better understand user metrics.",
+            "To better help communicate the design to other departments, as well as streamline the design process, we created a full branding guide and shared that with all parties. We also added tools such as Invision and Zeplin to make the process of feedback quick and timely.", 
+            "While deadlines were often tight and needed a short turn-around time, on most occasions we were able to do user research and provide recommendations on approaches to design challenges. Over the course of our engagement, we created hundreds of design collateral (mockups, wireframes, etc), and worked across hundreds of features and stories, helping make the two sites a truly enjoyable experience across all devices."
+
+        ],
+        "deliverables": "Product Strategy, Project Management, User Research, Data Analysis, IA, Visual Design, Interface Design, Interaction Design"
+    },
+    "sections": [
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "wsr-designsystem.jpg",
+            "title": "Branding & style guide",
+            "description": "From typography to buttons, forms, and interactions, the style guide was paramount in clear design communication. "
+        },
+        {
+            "type": "desktop",
+            "alignment": "left",
+            "image": "wsr-access.jpg",
+            "padding": "74%",
+            "title": "Better content presentation",
+            "description": "Each campaign or page was designed to give maximum clarity to the content and drive conversions to the cart."
+        },
+        {
+            "type": "mobile",
+            "alignment": "right",
+            "image": [
+                "wsr-mobile-access.jpg",
+                "wsr-mobile-content.jpg",
+                "wsr-mobile-content2.jpg"
+            ],
+            "title": "Mobile first",
+            "description": "All content pages were designed with responsive in mind and looked beautiful on mobile up to desktop."
+        },
+        {
+            "type": "desktop",
+            "alignment": "left",
+            "image": "wsr-cartflow.jpg",
+            "title": "A streamlined cart flow",
+            "description": "We streamlined the cart experience and reduced the time to checkout by more than half the previous version."
+        },
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "wsr-cart.jpg",
+            "title": "An improved experience",
+            "description": "All aspects of the cart experience were improved including making the products and prices more clear and understandable. "
+        },
+        {
+            "type": "mobile",
+            "alignment": "left",
+            "image": [
+                "wsr-mobile-qual.jpg",
+                "wsr-mobile-choice.jpg",
+                "wsr-mobile-cart.jpg"
+            ],
+            "title": "Shopping on the go",
+            "description": "Special care was given to the mobile experience, increasing engagement and causing better conversion rates. "
+        }
+    ]
+}
