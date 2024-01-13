@@ -102,7 +102,7 @@
 <section class="recent-work sec-md">
     <div class="container-xxl">
         <div ng-if="vm.workList.length > 0" waypoint broadcast="work-item" class="row">
-            <h2 class="text-center">Recent Work</h2>
+            <h2 class="text-center">Previous Work</h2>
             <div waypoint connect="work-item" delay="{{$index * 200}}" data-ng-repeat="item in vm.workList | limitTo: vm.itemLimit as results" class="slide work-item col-sm-12 col-md-6 col-lg-3">
                 <a class="work-item-link" href="#/work/{{item.url}}">
                     <div class="work-item-image" ng-style="{'background-image': 'url(content/images/previews/' + item.thumbnail + '.jpg)'}">
@@ -128,7 +128,7 @@
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 col-lg-6 text-center">
                 <h2>About Me</h2>
-                <p>I've been involved in design and development for over 15 years and I love designing experiences that engage and delight users. From mobile apps to web sites, and everything in between, each day I work on designing solutions across a multitude of browsers and devices. I'm energetic and passionate about creating amazing experiences and I'm also good at giving high-fives. </p>
+                <p>I've been involved in design and development for over 18+ years and I love designing experiences that engage and delight users. From mobile apps to web sites, and everything in between, each day I work on designing solutions across a multitude of browsers and devices. I'm energetic and passionate about creating amazing experiences and I'm also good at giving high-fives. </p>
                 <a href="#/about" class="btn btn-outline-secondary">Get to know me</a>
             </div>
         </div>
