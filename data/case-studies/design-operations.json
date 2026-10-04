@@ -1,0 +1,74 @@
+{
+    "overview": {
+        "image": "designops-hero.png",
+        "presentation": "browser",
+        "padding": "80%",
+        "alt": "Conceptual overview of a designer connecting project strategy, requirements, planning, and delivery.",
+        "description": [
+            "Project teams had two connected problems. Work often began without shared agreement on goals, users, and priorities. Once delivery started, design sat in a separate Jira instance, recreating requirements and remaining largely invisible in project plans.",
+            "Over the course of several months, I introduced a shared planning framework and integrated design into the existing project workflow. Together, those changes gave teams clearer inputs, earlier design involvement, and a more predictable path to delivery.",
+            "I led the effort from within design, without authority over product or engineering. Adoption depended on shaping the solution with each group and making the new way of working easier than the old one."
+        ],
+        "disclaimer": "This work is covered by NDA. Names, details, and visuals have been changed or recreated to protect confidential information. The underlying challenges, decisions, and outcomes are based on real work.",
+        "deliverables": "Experience Strategy, Design Operations, Change Management, Requirements Definition, Workflow Design, Cross-functional Alignment, Jira Automation"
+    },
+    "sections": [
+        {
+            "layout": "narrative",
+            "eyebrow": "The operating problem",
+            "title": "Two gaps in the same process",
+            "description": [
+                "Upstream, teams moved from ideas to features before agreeing on the North Star, intended outcomes, users, or priorities. The missing context resurfaced in repeated meetings and shifting requirements.",
+                "Downstream, designers translated those requirements into a separate backlog and managed their own tickets. Design appeared as a single line in project plans, with little visibility into capacity, dependencies, or timing. Fixing either gap alone would have left the other intact."
+            ]
+        },
+        {
+            "layout": "split",
+            "title": "Clarity before work began",
+            "description": [
+                "I created a lightweight framework that moved from strategy, outcomes, and risks through users, jobs, features, and priorities. It helped teams agree on why the work mattered and what needed to be true before discussing solutions.",
+                "Teams used it together in working sessions, and a streamlined version supported smaller efforts. Both formats gave decisions a shared home and reduced meetings spent revisiting the same questions."
+            ],
+            "image": "designops-planning-framework.png",
+            "presentation": "browser",
+            "padding": "75%",
+            "alignment": "right",
+            "alt": "Planning framework connecting strategy, users, jobs, features, and priorities."
+        },
+        {
+            "layout": "split",
+            "title": "Design inside project delivery",
+            "description": [
+                "Clearer requirements still left designers duplicating work in a separate system. Product owners did not want another ticket to write, and development managers did not want their established workflows changed.",
+                "I introduced a design subtask created from the existing story with a single action. It connected requirements, ownership, status, and Figma links while leaving the development workflow intact. Design became visible in planning without adding administrative work."
+            ],
+            "image": "designops-connected-delivery.png",
+            "presentation": "browser",
+            "padding": "62.5%",
+            "alignment": "left",
+            "alt": "Design work connected to the existing project story and delivery workflow."
+        },
+        {
+            "layout": "narrative",
+            "eyebrow": "Change management",
+            "title": "Built with teams, not imposed on them",
+            "description": [
+                "I could not mandate either change. I worked with design leaders, designers, product owners, development managers, and other partners to understand their concerns and shape an approach they could support.",
+                "Over the course of several months, the model expanded across roughly 20 designers working on multiple projects. The framework could scale up or down, and the workflow was adapted team by team while preserving its purpose. People could see their input in the result, which helped the change last."
+            ]
+        },
+        {
+            "layout": "split",
+            "title": "Better for everyone",
+            "description": [
+                "Business and product partners gained clearer priorities and visibility. Designers joined planning earlier and spent less time managing tickets. Engineers received clearer requirements and connected design direction. QA could trace decisions from intent through implementation.",
+                "Teams spent less time revisiting decisions and experienced fewer last-minute surprises. As the approach took hold, design began moving one or two sprints ahead of development, creating more time for thoughtful work and stronger experiences."
+            ],
+            "image": "designops-shared-outcomes.png",
+            "presentation": "browser",
+            "padding": "55%",
+            "alignment": "right",
+            "alt": "Connected project work creating clearer priorities, earlier design involvement, and more predictable delivery."
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "overview": {
+        "image": "slyfox-home.jpg",
+        "padding": "99%",
+        "description": [
+            "SlyFox.bet is a live, free-to-play gaming prediction platform that turns game knowledge into competition. Players forecast release dates, review scores, announcements, and industry outcomes using virtual Coins, then build a record through accuracy, winnings, streaks, and leaderboards.",
+            "I led Sly Fox from concept and product strategy through brand, UX, design systems, architecture, data modeling, integrations, testing, and launch. Built fully using AI-assisted workflows extended my reach across disciplines and accelerated research, implementation, and iteration, while I retained ownership of every product decision and the overall quality bar.",
+            "The focused player experience is backed by a complete operational platform: dynamic odds, evidence-based resolution, external game and review data, ledger-backed accounts, content workflows, scheduled automation, and administrative safeguards. That depth allows Sly Fox to operate as a living product, with the systems needed to keep markets timely, explainable, and trustworthy."
+        ],
+        "deliverables": "Product Direction, Brand & UX, Design Systems, Full-Stack Engineering, Data Architecture, Content Operations, Automation & AI Workflows"
+    },
+    "sections": [
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "slyfox-signup.jpg",
+            "padding": "66%",
+            "title": "From onboarding to activation",
+            "description": [
+                "Invite-based onboarding establishes the value proposition immediately: turn what you know about games into something you can prove.",
+                "It also creates a controlled path for growth, helping manage demand and platform load while building anticipation as the community scales."
+            ]
+        },
+        {
+            "type": "desktop",
+            "alignment": "left",
+            "image": "slyfox-prediction.jpg",
+            "padding": "55%",
+            "title": "A market built for confident decisions",
+            "description": "Dynamic odds, potential winnings, game context, activity, timing, and published resolution rules give players the context to make an informed call."
+        },
+        {
+            "type": "mobile",
+            "alignment": "right",
+            "image": [
+                "slyfox-mobile-home.jpg",
+                "slyfox-mobile-prediction.jpg",
+                "slyfox-mobile-bet.jpg"
+            ],
+            "title": "The complete journey, on any screen",
+            "description": "The responsive experience carries players from discovery through decision and confirmation without sacrificing context or capability."
+        },
+        {
+            "type": "desktop",
+            "alignment": "left",
+            "image": "slyfox-leaderboards.jpg",
+            "padding": "50%",
+            "title": "Competition built around skill",
+            "description": "Multiple rankings reward wins, accuracy, streaks, and Coin performance—giving different kinds of players a meaningful way to compete."
+        },
+        {
+            "type": "desktop",
+            "alignment": "right",
+            "image": "slyfox-admin-prediction.jpg",
+            "padding": "95%",
+            "title": "Operations are part of the product",
+            "description": "The administration platform turns prediction authoring, market configuration, resolution rules, editorial content, and live previews into a controlled workflow."
+        },
+        {
+            "type": "desktop",
+            "alignment": "left",
+            "image": "slyfox-crons.jpg",
+            "padding": "65%",
+            "title": "Automation behind every market",
+            "description": "Observable pipelines synchronize game data, generate and close predictions, collect review information, resolve outcomes, and reconcile accounts—with human intervention when needed."
+        }
+    ]
+}

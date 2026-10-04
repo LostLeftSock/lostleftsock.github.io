@@ -1,0 +1,98 @@
+{
+    "overview": {
+        "image": "classroom-career-educator-dashboard.png",
+        "padding": "62.5%",
+        "description": [
+            "A global education company came to us with an idea for a new career exploration platform. They wanted to make it easier for teachers to bring working professionals into their classrooms, giving students access to careers and perspectives they might not otherwise encounter.",
+            "The broad idea was there, but the product, experience, technology, requirements, and path to launch still needed to be worked out.",
+            "I was the engagement lead from discovery through delivery. I ran workshops with the client and our team, helped shape the product direction, managed the budget and timeline, reviewed the work with designers and engineers, and kept a fully remote team moving together.",
+            "Seven months after we started, we handed off a working MVP that the client launched publicly within weeks. The product later received industry recognition, and is still in use today."
+        ],
+        "disclaimer": "This work is covered by NDA. Names, details, and visuals have been changed or recreated to protect confidential information. The underlying challenges, decisions, and outcomes are based on real work.",
+        "deliverables": "Product Strategy, Experience Strategy, User Research, Product Design, Product Management, Technical Architecture, Application Development, Launch Planning"
+    },
+    "sections": [
+        {
+            "layout": "narrative",
+            "eyebrow": "Product direction",
+            "title": "Starting with the connection that mattered",
+            "description": [
+                "The original vision included teachers, students, parents, professionals, employers, and school administrators. Building for all of them in the first release would have added a lot of complexity before the core idea had a chance to prove itself.",
+                "For the MVP, we focused on teachers and professionals. Students participated through the classroom rather than managing their own accounts. Employer and school administrators received only the tools they needed to support the people using the product.",
+                "That choice removed much of the complexity around student privacy, safety, and permissions. More importantly, it kept the product focused on its most important moment: helping a student meet someone who could make a career feel real."
+            ]
+        },
+        {
+            "layout": "split",
+            "title": "Defining the MVP",
+            "description": [
+                "The MVP centered on educators and professionals, with the supporting administration needed to set up organizations and manage participation."
+            ],
+            "image": "classroom-career-mvp-scope.png",
+            "padding": "50%",
+            "alignment": "left"
+        },
+        {
+            "layout": "narrative",
+            "eyebrow": "Experience strategy",
+            "title": "Designing the complete experience",
+            "description": [
+                "The idea was simple: a teacher would invite a working professional to speak to students about their career. Making that experience work required much more.",
+                "Teachers needed to find people who fit their lessons, grade levels, and schedules. Professionals needed to explain their experience, manage their availability, understand what the teacher needed, and feel prepared to speak with students. Schools and employers needed straightforward ways to introduce the platform and support participation.",
+                "We mapped the experience in virtual workshops and created a product narrative that showed how the different parts fit together. It gave research, design, and technology a shared direction.",
+                "We also built video into the product instead of relying on a separate service. Schools often restrict which video platforms teachers can use, so an outside tool could prevent a classroom visit from happening. Teachers and professionals could schedule and complete the visit without leaving the platform."
+            ]
+        },
+        {
+            "layout": "split",
+            "title": "Understanding each audience",
+            "description": [
+                "The workshop board captured the activities, pain points, needs, and goals of educators, professionals, employer administrators, and students."
+            ],
+            "image": "classroom-career-discovery-workshop.png",
+            "padding": "51.5%",
+            "alignment": "right"
+        },
+        {
+            "layout": "split",
+            "title": "Connecting the parts of the product",
+            "description": [
+                "Early wireframes helped us work through organization setup, request management, and the educator dashboard as one connected experience."
+            ],
+            "image": "classroom-career-early-wireframes.png",
+            "padding": "46.25%",
+            "alignment": "left"
+        },
+        {
+            "layout": "split",
+            "title": "Creating a classroom request",
+            "description": [
+                "Teachers used the form to describe the lesson, choose a format and grade level, and request time with a professional."
+            ],
+            "image": "classroom-career-request-creation.png",
+            "padding": "62.5%",
+            "alignment": "right"
+        },
+        {
+            "layout": "narrative",
+            "eyebrow": "Delivery leadership",
+            "title": "Keeping the build on track",
+            "description": [
+                "The discovery phase worked well because the people making decisions were in the room with us. As we transitioned to the build phase, day-to-day ownership shifted to a different client team, which reopened earlier decisions and made some client-side development less predictable. In response, I made requirements, decisions, and information easier to find, used weekly status reviews to keep delivery risks visible, and reassigned launch-critical work so delays on the client side couldn’t prevent the product from shipping.",
+                "We had prioritized the work early, so the team knew what had to be ready and what could move. When the client asked to begin onboarding professionals before the rest of the MVP was complete, we agreed. It seemed manageable, and it would make the platform more useful when teachers arrived.",
+                "As the delivery window tightened, I moved early access back rather than open a product we weren’t confident in. It was a difficult conversation, but when the first users arrived, the core experience worked without any significant issues."
+            ]
+        },
+        {
+            "layout": "split",
+            "title": "From concept to launch in seven months",
+            "description": [
+                "We delivered the MVP within budget and timeline. Within weeks of the handoff, the client launched it publicly with its first group of corporate partners and educators.",
+                "The product later received external recognition and awards. It has continued to grow and is still being used to bring working professionals into classrooms today."
+            ],
+            "image": "classroom-career-professional-dashboard.png",
+            "padding": "62.5%",
+            "alignment": "left"
+        }
+    ]
+}

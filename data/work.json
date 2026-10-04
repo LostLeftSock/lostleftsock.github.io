@@ -1,22 +1,41 @@
 [
     {
-        "name": "Prodapt",
-        "title": "Corporate Site Redesign",
-        "subtitle": "A fresh new look for Prodapt.com",
-        "thumbnail": "prodapt-homepage",
-        "file": "prodapt-site",
-        "url": "prodapt-site"
+        "name": "Case Study",
+        "title": "UX Intelligence Platform",
+        "subtitle": "Giving designers connected product intelligence and a faster path from audit to implementation",
+        "thumbnail": "ai-ux-platform",
+        "file": "ai-ux-platform",
+        "url": "ai-ux-platform",
+        "type": "case-study"
+    },
+     {
+        "name": "Showcase",
+        "title": "Gaming Prediction App",
+        "subtitle": "Turn your game knowledge into bragging rights.",
+        "thumbnail": "slyfox",
+        "file": "slyfox",
+        "url": "slyfox"
     },
     {
-        "name": "Kinetic by Windstream",
-        "title": "Residential Site & Checkout",
-        "subtitle": "Residential content site with shopping experience",
-        "thumbnail": "kinetic-residential",
-        "file": "ws-res",
-        "url": "kinetic-windstream"
+        "name": "Case Study",
+        "title": "Classroom Career Platform",
+        "subtitle": "Connecting classrooms with working professionals",
+        "thumbnail": "career-platform",
+        "file": "classroom-career-platform",
+        "url": "classroom-career-platform",
+        "type": "case-study"
     },
     {
-        "name": "Kinetic Business by Windstream",
+        "name": "Case Study",
+        "title": "Building Better DesignOps",
+        "subtitle": "Bringing project teams together from strategy through delivery",
+        "thumbnail": "design-ops",
+        "file": "design-operations",
+        "url": "design-operations",
+        "type": "case-study"
+    },
+    {
+        "name": "Showcase",
         "title": "Business Site & Checkout",
         "subtitle": "Business content site with shopping experience",
         "thumbnail": "kinetic-business",
@@ -24,7 +43,23 @@
         "url": "kinetic-business-windstream"
     },
     {
-        "name": "Kore",
+        "name": "Showcase",
+        "title": "Residential Site & Checkout",
+        "subtitle": "Residential content site with shopping experience",
+        "thumbnail": "kinetic-residential",
+        "file": "ws-res",
+        "url": "kinetic-windstream"
+    },
+    {
+        "name": "Showcase",
+        "title": "Corporate Site Redesign",
+        "subtitle": "A fresh new look for Prodapt.com",
+        "thumbnail": "prodapt-homepage",
+        "file": "prodapt-site",
+        "url": "prodapt-site"
+    },
+    {
+        "name": "Showcase",
         "title": "Desktop App Prototype",
         "subtitle": "An interactive prototype of the Kore desktop app",
         "thumbnail": "kore-app",
@@ -32,14 +67,14 @@
         "url": "kore-prototype"
     },
     {
-        "name": "Stackpath",
+        "name": "Showcase",
         "title": "Striketracker Web Application",
         "subtitle": "A robust web application for configuring CDN capabilties",
         "thumbnail": "stackpath-striketracker",
         "file": "sp-striketracker",
         "url": "stackpath"
     },
-    {
+     {
         "name": "Concept",
         "title": "Dashboard Visual Upgrade",
         "subtitle": "Concept dashboard project for an undisclosed client",
@@ -47,5 +82,4 @@
         "file": "concept-dash",
         "url": "concept-dashboard"
     }
-    
 ]

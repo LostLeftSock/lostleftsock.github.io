@@ -1,0 +1,90 @@
+<main class="case-study" ng-if="vm.pageReady">
+    <section class="case-study-overview sec-sm">
+        <div class="container-xxl">
+            <div class="row align-items-start">
+                <div class="col-lg-7">
+                    <img ng-if="vm.caseStudy.overview.presentation === 'plain'" class="case-study-visual" ng-src="content/images/case-studies/{{vm.caseStudy.overview.image}}" alt="{{vm.caseStudy.overview.alt}}">
+                    <div ng-if="vm.caseStudy.overview.presentation !== 'plain'" work-image image="vm.caseStudy.overview.image" type="'desktop'" path="'case-studies'" padding="vm.caseStudy.overview.padding"></div>
+                </div>
+                <div waypoint class="col-lg-5">
+                    <div class="case-study-copy">
+                        <h2>Overview</h2>
+                        <p ng-repeat="paragraph in vm.caseStudy.overview.description track by $index">{{paragraph}}</p>
+                        <p class="case-study-disclaimer">{{vm.caseStudy.overview.disclaimer}}</p>
+                        <div class="deliverable-words">
+                            <h3>Scope &amp; Contributions</h3>
+                            <p>{{vm.caseStudy.overview.deliverables}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-study-section sec-sm" ng-class="'case-study-section-' + (section.layout || 'split')" ng-repeat="section in vm.caseStudy.sections track by $index">
+        <div class="container-xxl">
+            <div ng-if="section.layout === 'narrative'" class="row case-study-narrative-row">
+                <div class="col-lg-11">
+                    <div waypoint class="case-study-copy case-study-narrative-copy">
+                        <div ng-if="section.eyebrow" class="case-study-eyebrow">{{section.eyebrow}}</div>
+                        <h2>{{section.title}}</h2>
+                        <p ng-repeat="paragraph in section.description track by $index">{{paragraph}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div ng-if="section.layout === 'wide'" ng-class="{'case-study-wide-compact': section.variant === 'compact'}" class="row case-study-wide-row">
+                <div class="col-lg-8">
+                    <div waypoint class="case-study-wide-copy">
+                        <h3>{{section.title}}</h3>
+                        <p ng-repeat="paragraph in section.description track by $index">{{paragraph}}</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img ng-if="section.presentation === 'plain'" class="case-study-visual" ng-src="content/images/case-studies/{{section.image}}" alt="{{section.alt}}">
+                    <div ng-if="section.presentation === 'browser'" class="work-image-container">
+                        <div class="desktop-image">
+                            <div class="desktop-bar">
+                                <div class="circles">
+                                    <div class="circle red"></div>
+                                    <div class="circle yellow"></div>
+                                    <div class="circle green"></div>
+                                </div>
+                            </div>
+                            <img class="case-study-visual" ng-src="content/images/case-studies/{{section.image}}" alt="{{section.alt}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div ng-if="!section.layout || section.layout === 'split'" class="row align-items-center case-study-split-row">
+                <div ng-if="section.image" ng-class="{'order-lg-2': section.alignment === 'right'}" class="col-lg-8 order-1">
+                    <img ng-if="section.presentation === 'plain'" class="case-study-visual" ng-src="content/images/case-studies/{{section.image}}" alt="{{section.alt}}">
+                    <div ng-if="section.presentation !== 'plain'" work-image image="section.image" type="'desktop'" path="'case-studies'" padding="section.padding"></div>
+                </div>
+                <div ng-class="{'order-lg-1': section.alignment === 'right'}" class="col-lg-4 order-2">
+                    <div waypoint class="work-words case-study-context">
+                        <div ng-if="section.eyebrow" class="case-study-eyebrow">{{section.eyebrow}}</div>
+                        <h3 ng-if="section.title">{{section.title}}</h3>
+                        <p ng-repeat="paragraph in section.description track by $index">{{paragraph}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-navigation sec-sm">
+        <div class="container-xxl">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="work-nav-buttons">
+                        <a href="#/work/{{vm.urlLinks.prev}}" class="btn btn-outline-primary prev">Prev Project</a>
+                        <a href="#/work" class="btn btn-outline-primary back d-none d-sm-block">Recent Work</a>
+                        <a href="#/work/{{vm.urlLinks.next}}" class="btn btn-outline-primary next">Next Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="horz-divider"></div>
+</main>

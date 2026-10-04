@@ -15,7 +15,7 @@
                 <div class="row">
                     <div waypoint connect="work-item" delay="{{$index * 200}}" data-ng-repeat="item in vm.workList" class="slide work-item col-sm-12 col-md-6">
                         <a class="work-item-link" href="#/work/{{item.url}}">
-                            <div class="work-item-image" ng-style="{'background-image': 'url(content/images/previews/' + item.thumbnail + '.jpg)'}">
+                            <div class="work-item-image" ng-style="{'background-image': 'url(' + (item.thumbnailPath || 'content/images/previews/' + item.thumbnail + '.jpg') + ')'}">
                                 <button type="button" class="btn btn-outline-secondary">View project</button>
                                 <div class="background-cover"></div>
                             </div>

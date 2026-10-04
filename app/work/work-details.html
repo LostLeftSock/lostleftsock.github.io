@@ -10,7 +10,9 @@
         </div>
     </div>
 </section>
-<img image-load="vm.imageLoad()" ng-show="false" ng-src="content/images/work/{{vm.overview.image}}">
+<img image-load="vm.imageLoad()" ng-show="false" ng-if="vm.work.type !== 'case-study'" ng-src="content/images/work/{{vm.overview.image}}">
+<div ng-if="vm.work.type === 'case-study'" ng-include="'app/work/case-study-details.html'"></div>
+<div ng-if="vm.work.type !== 'case-study'">
 <section class="work-overview sec-sm">
     <div class="container-xxl">
         <div ng-if="!vm.pageReady" class="row justify-content-center">
@@ -33,7 +35,7 @@
                         <p ng-repeat="p in vm.overview.description">{{p}}</p>
                     </div>
                     <div class="deliverable-words">
-                        <h3>Team Deliverables</h3>
+                        <h3>Scope &amp; Contributions</h3>
                         <p>{{vm.overview.deliverables}}</p>
                     </div>
                 </div>
@@ -50,7 +52,7 @@
             <div ng-class="{right: 'order-lg-1'}[section.alignment]" class="col-lg-4 order-2 align-self-center">
                 <div waypoint class="work-words">
                     <h3>{{section.title}}</h3>
-                    <p>{{section.description}}</p>
+                    <p ng-repeat="paragraph in section.description track by $index">{{paragraph}}</p>
                 </div>
             </div>
         </div>
@@ -70,3 +72,4 @@
     </div>
 </section>
 <div data-ng-if="vm.pageReady" class="horz-divider"></div>
+</div>

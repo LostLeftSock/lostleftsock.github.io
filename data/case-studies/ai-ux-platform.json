@@ -1,0 +1,73 @@
+{
+    "overview": {
+        "image": "ai-ux-executive-dashboard.png",
+        "presentation": "browser",
+        "padding": "96.111%",
+        "alt": "Recreated executive dashboard showing portfolio UX health, annual audits, improvement delivery, and application activity.",
+        "description": [
+            "AI had become an organizational priority, and design was asked to rethink how it could expand its impact across a large portfolio of internal applications. The goal was not to replace designers or automate design decisions. It was to use AI to help designers identify where they could make the biggest difference and carry more of that work through implementation.",
+            "I led the product definition, experience design, architecture, and hands-on development of an AI-powered UX Intelligence platform. It gave designers and design leaders a view across the application portfolio, including ownership, business priority, UX health, active audits, and improvement progress.",
+            "Over several months, I built a working MVP using Claude Code. It connected Jira, Confluence, GitHub, FullStory, identity services, and other internal systems so designers could decide where to focus, run UX audits, manage improvements, and work directly in product code while remaining in control of what changed."
+        ],
+        "disclaimer": "This work is covered by NDA. Names, details, and visuals have been changed or recreated to protect confidential information. The underlying challenges, decisions, and outcomes are based on real work.",
+        "deliverables": "AI Product Strategy, Experience Strategy, Product Design, Full-stack Development, Systems Architecture, Design Operations, Enterprise Integrations, MCP Development, Claude Code Plugin Development"
+    },
+    "sections": [
+        {
+            "layout": "narrative",
+            "title": "Turning the idea into a product",
+            "description": [
+                "As part of the broader AI initiative, I took ownership of design execution, which focused on how designers could identify, plan, and implement UX improvements across internal applications.",
+                "After a few working sessions with my design team, we landed on an idea: a platform that would help designers understand the applications they supported, find opportunities to improve them, and take those improvements all the way to production.",
+                "The sessions helped define what the product needed to do. Designers needed to know what they owned and where to focus, while design leaders needed a clear view of progress, portfolio health, and impact. I volunteered to turn the idea into a working product and built the MVP using Claude Code."
+            ]
+        },
+        {
+            "layout": "split",
+            "title": "Seeing where design could have the most impact",
+            "description": [
+                "A designer might support several applications at once, while a manager might need to understand the work across an entire team. The Apps view showed each application's business priority, UX health, audit status, and improvement progress so designers could quickly see where they left off and decide what to work on next.",
+                "Managers could view their own applications, their team's applications, or the full portfolio. They could also assign a lead, co-lead, and supporting designer based on how much design help each application needed."
+            ],
+            "image": "ai-ux-designer-portfolio.png",
+            "presentation": "browser",
+            "padding": "75%",
+            "alignment": "right",
+            "alt": "Recreated designer portfolio showing assigned applications with business priority, UX health, audit status, and improvement progress."
+        },
+        {
+            "layout": "split",
+            "title": "Helping designers decide where to focus",
+            "description": [
+                "Each application received two scores: Business Priority and UX Health. Business priority showed how important the application was to the organization. UX health showed how strong or problematic its current experience was. Together, those scores helped a designer make a more informed call about where their time could have the greatest impact.",
+                "The business score used information from Jira and Confluence, while the UX score used FullStory behavior data, design-system alignment, and UX best practices. Designers could see the sources, methodology, and confidence behind each score. The platform provided the evidence, but the designer still decided what needed to change and how to improve it."
+            ],
+            "image": "ai-ux-application-details.png",
+            "presentation": "browser",
+            "padding": "115%",
+            "alignment": "left",
+            "alt": "Recreated application detail view showing ownership, connected resources, annual audit information, transparent business and UX scores, and identified improvements."
+        },
+        {
+            "layout": "narrative",
+            "title": "Designed and built end to end",
+            "description": [
+                "I wanted designers to be able to use the product without setting up Jira, GitHub, or other internal tools inside Claude Code. I handled those connections through the platform and packaged the MCP server and supporting skills into one Claude Code plugin. A designer could install it and start working without managing keys or separate integrations.",
+                "I built the product from end to end, including the Postgres database, service API, application layer, web interface, MCP server, and plugin. I also integrated the organization's existing SSO, Active Directory groups, roles, and access controls so the MVP worked inside a highly regulated enterprise environment."
+            ]
+        },
+        {
+            "layout": "split",
+            "title": "From UX audit to implementation",
+            "description": [
+                "The work did not stop after an audit produced a list of improvements. A designer could open Claude Code and simply say, \"Let's work on Analytics Workspace.\" The platform found the right application, active audit, improvements, and GitHub repository without asking the designer for keys or technical setup.",
+                "Claude could ask which improvement to work on, find it by name, update its status, inspect the code, and explain what it found. The designer decided what should change and directed the work. Claude helped turn that direction into a plan and make the approved updates, giving designers a practical way to help ship the experiences they designed."
+            ],
+            "image": "ai-ux-claude-code-execution.png",
+            "presentation": "browser",
+            "padding": "100%",
+            "alignment": "right",
+            "alt": "Recreated Claude Code workspace using connected application and audit context while a designer directs an experience improvement."
+        }
+    ]
+}
